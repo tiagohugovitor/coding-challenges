@@ -8,7 +8,6 @@
 # Description: This function employs a brute-force approach to solve the 3 sum.
 # It iterates through all possible triples of elements in the list to find all that sums 0.
 
-
 def threeSumCubic(nums):
     solutions = []
     for i in range(len(nums) - 2):
