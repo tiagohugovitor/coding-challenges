@@ -1,4 +1,4 @@
-# 015-3sum.py
+# 0015-3sum.py
 # Problem: 3Sum
 # Link: https://leetcode.com/problems/3sum/description/
 # Solved on: 2024-06-28

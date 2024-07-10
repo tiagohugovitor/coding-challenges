@@ -1,4 +1,4 @@
-# 004-medianOfTwoSortedArrays.py
+# 0004-medianOfTwoSortedArrays.py
 # Problem: Median of Two Sorted Arrays
 # Link: https://leetcode.com/problems/median-of-two-sorted-arrays/description/
 # Solved on: 2024-06-27

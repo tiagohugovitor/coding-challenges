@@ -1,4 +1,4 @@
-# 005-longestPalindromicSubstring.py
+# 0005-longestPalindromicSubstring.py
 # Problem: Longest Palindromic Substring
 # Link: https://leetcode.com/problems/longest-palindromic-substring/description/
 # Solved on: 2024-07-07

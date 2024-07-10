@@ -1,4 +1,4 @@
-# 350-intersect.py
+# 0350-intersect.py
 # Problem: Intersection of Two Arrays II
 # Link: https://leetcode.com/problems/intersection-of-two-arrays-ii/description/?
 # Solved on: 2024-07-07

@@ -1,4 +1,4 @@
-# 001-twoSum.py
+# 0001-twoSum.py
 # Problem: Two Sum
 # Link: https://leetcode.com/problems/two-sum/description/
 # Solved on: 2024-06-27
