@@ -20,12 +20,8 @@ def maxDepthRecursive(root):
         return 0
     
     def calculateMaxDepth(node):
-        if node.left is None and node.right is None:
-            return 1
-        if node.left is None:
-            return 1 + calculateMaxDepth(node.right)
-        if node.right is None:
-            return 1 + calculateMaxDepth(node.left)
+        if node is None:
+            return 0
         return 1 + max(calculateMaxDepth(node.right), calculateMaxDepth(node.left))
 
     return calculateMaxDepth(root)
