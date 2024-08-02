@@ -19,10 +19,10 @@ def searchRange(nums, target):
         if nums[mid] == target:
             p = mid
             q = mid
-            while (p >= 0 and nums[p] == target) or (q < len(nums) and nums[q] == target):
-                if nums[p] == target:
+            while (p > -1 and nums[p] == target) or (q < len(nums) and nums[q] == target):
+                if p > -1 and nums[p] == target:
                     p -= 1
-                if nums[q] == target:
+                if q < len(nums) and nums[q] == target:
                     q += 1
             return [p + 1, q - 1]
         if nums[mid] < target:
@@ -50,7 +50,7 @@ def searchRangeOptimized(nums, target):
         mid = (start + end) // 2
         if nums[mid] == target and (mid + 1 == len(nums) or nums[mid+1] != target):
             endIndex = mid
-        if nums[mid] < target:
+        if nums[mid] <= target:
             start = mid + 1
         else:
             end = mid - 1
@@ -69,4 +69,4 @@ def searchRangeOptimized(nums, target):
 
     return [startIndex, endIndex]
 
-print(searchRange([2,2], 2))
+print(searchRangeOptimized([2,2], 2))
