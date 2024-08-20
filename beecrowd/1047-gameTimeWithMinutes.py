@@ -6,12 +6,18 @@
 def gameTime():
 
     startHour, startMinute, endHour, endMinute = map(int, input().split())
-    hours = endHour - startHour if endHour > startHour else 24 - startHour + endHour
-    minutes = endMinute - startMinute if endMinute > startMinute else (60 - startMinute + endMinute) % 60
-    if endMinute < startMinute:
-        hours -= 1
-    if hours == 24 and minutes > 0:
-        hours = 0
+    minutes = endMinute - startMinute
+    
+    if minutes < 0:
+        minutes += 60
+        endHour -= 1
+
+    hours = endHour - startHour
+    if hours < 0:
+        hours += 24
+
+    if hours == 0 and minutes == 0:
+        hours = 24
     print(f'O JOGO DUROU {hours} HORA(S) E {minutes} MINUTO(S)')
 
 gameTime()
