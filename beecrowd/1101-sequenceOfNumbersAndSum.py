@@ -1,5 +1,5 @@
-# 1101-sequenceOfNumbersAndSum.js
-# Problem: Sequence of NUmbers and Sum
+# 1101-sequenceOfNumbersAndSum.py
+# Problem: Sequence of Numbers and Sum
 # Link: https://judge.beecrowd.com/en/problems/view/1101
 # Solved on: 2024-08-20
 

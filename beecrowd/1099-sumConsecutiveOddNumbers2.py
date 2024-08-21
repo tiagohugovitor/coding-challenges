@@ -1,4 +1,4 @@
-# 1099-sumConsecutiveOddNumbers.js
+# 1099-sumConsecutiveOddNumbers.py
 # Problem: Sum of Consecutive Odd Numbers II
 # Link: https://judge.beecrowd.com/en/problems/view/1099
 # Solved on: 2024-08-20

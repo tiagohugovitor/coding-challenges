@@ -1,4 +1,4 @@
-# 1098-sequenceIJ4.js
+# 1098-sequenceIJ4.py
 # Problem: Sequence IJ 4
 # Link: https://judge.beecrowd.com/en/problems/view/1098
 # Solved on: 2024-08-20
