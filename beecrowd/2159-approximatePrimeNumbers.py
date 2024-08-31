@@ -1,5 +1,5 @@
 # 2152-approximatePrimeNumber.py
-# Problem: Approximate NUmber of Primes
+# Problem: Approximate Number of Primes
 # Link: https://judge.beecrowd.com/en/problems/view/2159
 # Solved on: 2024-08-29
 
