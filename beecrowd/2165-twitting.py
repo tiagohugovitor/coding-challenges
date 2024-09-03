@@ -1,5 +1,5 @@
 # 2165-twitting.py
-# Problem: Fast Fibonacci
+# Problem: Twitting
 # Link: https://judge.beecrowd.com/en/problems/view/2165
 # Solved on: 2024-08-30
 

@@ -1,9 +1,7 @@
 # 2166-squareRoot2.py
-# Problem: Fast Fibonacci
+# Problem: Square Root 2
 # Link: https://judge.beecrowd.com/en/problems/view/2166
 # Solved on: 2024-08-30
-
-import math
 
 def squareRoot2():
     number = int(input())
