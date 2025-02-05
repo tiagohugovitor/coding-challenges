@@ -1,33 +1,34 @@
-class Tree {
+export class Tree {
     constructor() {
         this.root = null
     }
 }
 
-class Node {
-    constructor() {
-        this.value = 0
+export class Node {
+    constructor(value) {
+        this.value = value
         this.right = null
         this.left = null
     }
 }
 
-const inOrderTraversal = (root) => {
+export const inOrderTraversal = (root) => {
     if (root == null) return
     inOrderTraversal(root.left)
-    print(root.value)
+    console.log(root.value)
     inOrderTraversal(root.right)
 }
 
-const preOrderTraversal = (root) => {
+export const preOrderTraversal = (root) => {
     if (root == null) return
-    print(root.value)
+    console.log(root.value)
     preOrderTraversal(root.left)
     preOrderTraversal(root.right)
 }
 
-const postOrderTraversal = (root) => {
+export const postOrderTraversal = (root) => {
+    if (root == null) return
     postOrderTraversal(root.left)
     postOrderTraversal(root.right)
-    print(root.value)
+    console.log(root.value)
 }
